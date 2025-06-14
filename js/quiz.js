@@ -1,3 +1,11 @@
+/**
+ * HTML5 Quiz App
+ * quiz.js - Main quiz functionality
+ * 
+ * MIT License
+ * Copyright (c) 2025
+ */
+
 // Global variables
 let quizData = [];
 let currentQuestionIndex = 0;

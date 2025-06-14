@@ -1,3 +1,11 @@
+/**
+ * HTML5 Quiz App
+ * results.js - Results page functionality
+ * 
+ * MIT License
+ * Copyright (c) 2025
+ */
+
 // DOM Elements
 const resultsContainer = document.getElementById('results-container');
 const resultsSummary = document.getElementById('results-summary');

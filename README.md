@@ -1,6 +1,6 @@
 # HTML5 Quiz App
 
-A simple, responsive multiple-choice quiz application built with HTML5, CSS3, and JavaScript.
+An interactive HTML5 quiz application featuring multiple-choice questions with support for multiple correct answers. Track your progress, test your knowledge, and receive detailed explanations after completion. Clean, responsive design works on all devices with a modern browser.
 
 ## Features
 
@@ -45,7 +45,7 @@ To customize the quiz questions, edit the `quiz-data.json` file. Each question o
 ## Project Structure
 
 ```
-quiz-app/
+quiz-html5/
 ├── css/
 │   └── styles.css
 ├── js/
@@ -54,6 +54,8 @@ quiz-app/
 ├── quiz-data.json
 ├── index.html
 ├── results.html
+├── LICENSE.txt
+├── .gitignore
 └── README.md
 ```
 
@@ -63,3 +65,28 @@ quiz-app/
 - CSS3
 - JavaScript (ES6+)
 - Local Storage API for persisting quiz results between pages
+
+## Installation
+
+No installation required! Simply:
+
+1. Clone or download this repository
+2. Open `index.html` in any modern web browser
+
+## Demo
+
+To experience the quiz app:
+1. Open `index.html` in your browser
+2. Answer the questions by clicking on multiple choices if needed
+3. Navigate through all questions
+4. View your final score and explanations
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
+
+Copyright (c) 2025
+
+## Author
+
+Created on June 14, 2025

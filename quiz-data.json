@@ -1,62 +1,76 @@
 [
-  {
-    "id": 1,
-    "question": "Which of the following are JavaScript frameworks or libraries?",
-    "choices": [
-      "React",
-      "Python",
-      "Angular",
-      "Java"
-    ],
-    "correctAnswers": [0, 2],
-    "description": "React and Angular are popular JavaScript frameworks/libraries used for building user interfaces. Python and Java are programming languages, not JavaScript frameworks."
-  },
-  {
-    "id": 2,
-    "question": "Which HTML5 tags are used for semantic structuring?",
-    "choices": [
-      "header",
-      "div",
-      "article",
-      "span"
-    ],
-    "correctAnswers": [0, 2],
-    "description": "header and article are semantic HTML5 tags that give meaning to the structure of content. div and span are generic container elements without semantic meaning."
-  },
-  {
-    "id": 3,
-    "question": "Which of these are valid CSS selectors?",
-    "choices": [
-      "#header",
-      ".content",
-      "body>p",
-      "All of the above"
-    ],
-    "correctAnswers": [3],
-    "description": "All of these are valid CSS selectors. #header selects an element with id='header', .content selects elements with class='content', and body>p selects all p elements that are direct children of the body element."
-  },
-  {
-    "id": 4,
-    "question": "Which of these are features of HTML5?",
-    "choices": [
-      "Canvas",
-      "Local Storage",
-      "Geolocation",
-      "All of the above"
-    ],
-    "correctAnswers": [3],
-    "description": "Canvas, Local Storage, and Geolocation are all features introduced or standardized in HTML5."
-  },
-  {
-    "id": 5,
-    "question": "Which methods can be used to add an element to the DOM in JavaScript?",
-    "choices": [
-      "appendChild()",
-      "insertBefore()",
-      "replaceChild()",
-      "createElement()"
-    ],
-    "correctAnswers": [0, 1, 3],
-    "description": "appendChild() adds a node to the end of the list of children of a specified parent node. insertBefore() inserts a node before a reference node as a child of a specified parent node. createElement() creates a new element with the specified tag name. replaceChild() replaces one child node of the specified node with another."
-  }
+    {
+        "id": 1,
+        "question": "Which of the following are JavaScript frameworks or libraries?",
+        "choices": [
+            "React",
+            "Python",
+            "Angular",
+            "Java"
+        ],
+        "correctAnswers": [
+            0,
+            2
+        ],
+        "description": "React and Angular are popular JavaScript frameworks/libraries used for building user interfaces. Python and Java are programming languages, not JavaScript frameworks."
+    },
+    {
+        "id": 2,
+        "question": "Which HTML5 tags are used for semantic structuring?",
+        "choices": [
+            "header",
+            "div",
+            "article",
+            "span"
+        ],
+        "correctAnswers": [
+            0,
+            2
+        ],
+        "description": "header and article are semantic HTML5 tags that give meaning to the structure of content. div and span are generic container elements without semantic meaning."
+    },
+    {
+        "id": 3,
+        "question": "Which of these are valid CSS selectors?",
+        "choices": [
+            "#header",
+            ".content",
+            "body>p",
+            "All of the above"
+        ],
+        "correctAnswers": [
+            3
+        ],
+        "description": "All of these are valid CSS selectors. #header selects an element with id='header', .content selects elements with class='content', and body>p selects all p elements that are direct children of the body element."
+    },
+    {
+        "id": 4,
+        "question": "Which of these are features of HTML5?",
+        "choices": [
+            "Canvas",
+            "Local Storage",
+            "Geolocation",
+            "All of the above"
+        ],
+        "correctAnswers": [
+            3
+        ],
+        "description": "Canvas, Local Storage, and Geolocation are all features introduced or standardized in HTML5."
+    },
+    {
+        "id": 5,
+        "question": "Which methods can be used to add an element to the DOM in JavaScript?",
+        "choices": [
+            "appendChild()",
+            "insertBefore()",
+            "replaceChild()",
+            "createElement()"
+        ],
+        "correctAnswers": [
+            0,
+            1,
+            3
+        ],
+        "description": "appendChild() adds a node to the end of the list of children of a specified parent node. insertBefore() inserts a node before a reference node as a child of a specified parent node. createElement() creates a new element with the specified tag name. replaceChild() replaces one child node of the specified node with another."
+    }
 ]
